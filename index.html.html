@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> A REGISTRATION FORM</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<style>
+		.head {
+			margin: 15px;
+			padding: 30px 30px 20px 50px;
+			border-radius: 10px;
+			color: #fff;
+			
+		}
+		form label {
+			font-family: 'Source Sans Pro', sans-serif;
+			color: #fff;
+		}
+		body {
+			background-image: url(bk.jpg);
+			background-size: 1550px;
+			padding: 30px
+			border: 3px solid #000000;
+			background-repeat: no-repeat;
+			
+			}
+		 form #gender {
+			font-family: 'Source Sans Pro', sans-serif;
+			color: #fff;
+		}
+		span {
+			color: #fff;
+		}
+		* {
+			box-sizing: border-box;
+		}
+		
+		footer {
+			text-align: center;
+		}
+
+		hr {
+			width: 150px;
+		}
+
+		
+</style>
+		
+
+</head>
+<body id="move">
+	<center>
+	<h1 class="head">A REGISTRATION FORM<hr></h1>
+	<form><br>
+		<label>First Name</label>
+		<input type="text" name="firstname" placeholder="firstname">
+		<br><br>
+		<label>Last Name</label>
+		<input type="text" name="lastname" placeholder="lastname">
+		<br><br>
+		<label>Email</label>
+		<input type="Email" name="Email" placeholder="email">
+		<br><br>
+		<label class="">Phone</label>
+		<input type="text" value="" placeholder="phone">
+		<br><br>
+		<div id="gender">
+		<label>Gender</label>
+		<input type="radio" name="Gender" value="male" checked/> Male
+		<input type="radio" name="Gender" value="Female"> Female
+		<input type="radio" name="Gender" value="other"> Other<br>
+	</div>
+		<label>New Password</label>
+		<input type="Password" name="Password" placeholder="new password"><br><br>
+		<label>Confrim Password</label>
+		<input type="Password" name="Password" placeholder="confrim password"> 
+
+		<footer><span class="thank"><h2>Thank you for your time.</h2></span><hr>
+</footer>
+
+	</form>
+</center>
+</body>
+</html>
